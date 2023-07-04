@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caprasimo&family=Inter&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.nav-item{
+    border-radius: 28px;
+    background-color: #61DAFA;
+    margin-top: -12px;
+    margin: 8px;
+}
+.navbar{
+    position: relative;   
+    background-color: transparent; 
+    display: inline;
+    z-index: 1;
+}
+@media(max-width:200px){
+    .nav-item{
+        width: 28%;
+    }
+    .nav-item button{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin: auto;
+    }
+}
+
+.img{
+    min-height: 500px;
+    height: 500px;
+    display: flex;
+    margin-top: 0; 
+   float: right;
+}
+.right img{
+    position: absolute;
+    top: -12%;
+    right: 0;    
+    min-height: 600px;
+    z-index: 0;
+}
+
+.left{
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%; 
+    margin-left: 2%;
+}
+.left h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.amind{
+    margin-left: 10%;
+}
+.text .btn{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 10%;
+    background-color: #61DAFA   ;
+}
+.head .row{
+    position: relative;
+    margin-top: 22%;
+}
+.form-control{
+    width: 150px;
+}
+.row .btn{
+    background-color: #61DAFA;
+}
