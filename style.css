@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caprasimo&family=Inter&family=Merriweather:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto&display=swap');
 .nav-item{
     border-radius: 28px;
     background-color: #61DAFA;
@@ -40,6 +41,7 @@
 }
 
 .left{
+
     font-size: 10px;
     align-items: center;
     justify-content: center;
@@ -62,13 +64,42 @@
     margin-left: 10%;
     background-color: #61DAFA   ;
 }
-.head .row{
+.row{
     position: relative;
-    margin-top: 22%;
+    margin-top: 18%;
 }
 .form-control{
     width: 150px;
 }
 .row .btn{
     background-color: #61DAFA;
+}
+.row .btn a{
+    text-decoration: none;
+    color: white;
+}
+.boxes{
+    font-family: 'Roboto', sans-serif;  
+}
+
+.slides{
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    background-color: #808080;
+    width: 85%;
+    height: 35%;
+}
+.services h5{
+    font-family: 'Noto Sans', sans-serif;
+}
+.col h5{
+    font-family: 'Noto Sans', sans-serif;
+}
+.service-img {
+    height: 80px;
+    margin-bottom: 15px;
+}
+.card-shadow{
+    box-shadow: 5px 5px 5px 5px #888888;
 }
