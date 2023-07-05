@@ -243,3 +243,12 @@ th{
 .skip p{
     font-family: 'Roboto', sans-serif;
 }
+
+.video .v-card{
+    border: 1px solid #dfdfdf;
+    padding: 24px 16px 14px 29px;
+}
+.video h6{
+    margin-top: 2px;
+    font-family: 'Noto Sans', sans-serif;
+}
