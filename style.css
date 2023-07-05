@@ -8,12 +8,12 @@
     margin: 8px;
 }
 .navbar{
-    position: relative;   
+    position: absolute;   
     background-color: transparent; 
     display: inline;
     z-index: 1;
 }
-@media(max-width:200px){
+/* @media(max-width:200px){
     .nav-item{
         width: 28%;
     }
@@ -23,21 +23,66 @@
         justify-items: center;
         margin: auto;
     }
+
+} */
+
+/* MEDIA DISPLAY */
+@media(max-width:768px){
+    .row{
+        display: flex;
+    }
+    .info .container .card{    
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 18%;
+    }
+    
+    .boxes .form-control{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 12%;
+        margin: 4px;
+    }
+    
+}
+@media(max-width:992px){
+    .nav-item{
+        width: 40%
+    }
 }
 
-.img{
-    min-height: 500px;
-    height: 500px;
+.row {
+    
     display: flex;
-    margin-top: 0; 
-   float: right;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
-.right img{
-    position: absolute;
-    top: -12%;
-    right: 0;    
-    min-height: 600px;
-    z-index: 0;
+
+.boxs {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 80vh;
+    border: none;
+}
+   
+.col{
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
 }
 
 .left{
@@ -48,14 +93,16 @@
     margin-top: 10%; 
     margin-left: 2%;
 }
-.left h3{
+.head .row .col .boxs h1{
     font-family: 'Amatic SC', cursive;
     font-size: 50px;
-    line-height: 40px;
     font-weight: 600;
 }
 .amind{
     margin-left: 10%;
+}
+.head .btn{
+    border: transparent;
 }
 .text .btn{
     font-family: 'Roboto', sans-serif;
@@ -64,9 +111,10 @@
     margin-left: 10%;
     background-color: #61DAFA   ;
 }
-.row{
-    position: relative;
-    margin-top: 18%;
+.head .row{
+    display: flex;
+    float: top;
+    top: -12%;
 }
 .form-control{
     width: 150px;
@@ -96,10 +144,50 @@
 .col h5{
     font-family: 'Noto Sans', sans-serif;
 }
+
 .service-img {
     height: 80px;
     margin-bottom: 15px;
 }
-.card-shadow{
+/* OUR STORY SECTION */
+/* .card-shadow{
     box-shadow: 5px 5px 5px 5px #888888;
+} */
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.info .container .card{
+    margin-left: -72px;
+    font-family: 'Roboto', sans-serif;    
+}
+.info .container .card h5{
+    font-family: 'Noto Sans', sans-serif;
+}
+.b-avatar{
+    background-color: #e7d9f4;
+    border-radius: 50%;
+    padding: 8px;
+  display: inline-block;
+}
+.b-text{
+    font-family: 'Noto Sans', sans-serif;
+}
+.heading{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+.lines{
+    font-family: 'Roboto', sans-serif;
+}
+
+.b-bg2{
+    background-color: #f0eea6;
+}
+.b-bg3{
+    background-color: #8ae1d2;
+}
+.b-bg4{
+    background-color: #efb1b8;
 }

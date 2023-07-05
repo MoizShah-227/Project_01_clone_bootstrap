@@ -11,7 +11,7 @@
 </head>
 <body>
 
-     <nav class="navbar navbar-expand-lg  text-black py-3 ">
+     <nav class="navbar navbar-light fixed-top navbar-expand-lg transparent d-md-flex d-lg-flex ">
         <div class="container">
             <a href="#" class="navbar-brand "><img src="./imgs/logo.png " width="100px" height="30px" alt="#">
             </a>
@@ -37,16 +37,21 @@
     <!-- header -->
 
     <div class="head">
-        <div class="container">
-            <div class="left">
-                <span class=" text justify-content-center text-dark"> <h3 class="amind">AMINDSET</h3>
-                    <h3>Quality care one person at a time</h3>
-                    <button class="btn  text-white ">Find a provider</button>
-                </span>
+        <div class="row">
+            <div class="col">
+             <div class="boxs">
+                <div class="d-block text-center">
+                    <h1 class="text-dark text-center headtext">
+                        Amindset
+                        <br>
+                        Quality care one person at a time 
+                        <br>
+                    </h1>
+                    <button data-v-17c7e0da="" type="button" class="btn btn-primary"> Find a Provider </button>
+                </div>
             </div>
-            <div class="right ms-auto pt-lg-0 p-lg-0 ">
-                 <img src="./imgs/home.png " width=50% alt="#" class="img img-fluid" id="#overlay"> 
-            </div>
+        </div>
+        <div data-v-17c7e0da="" class="col" style="position: relative; min-height: 500px; background: url(&quot;/imgs/home.png&quot;) 0% 0% / 100% 100% no-repeat rgba(0, 0, 0, 0.6); background-blend-mode: overlay;"></div>
         </div>
     </div>
     <!-- BOXES -->
@@ -198,17 +203,90 @@
         <!-- INFORMATION SECTION -->
         <section class="info">
             <div class="container">
-                <div class="col-md-7 col-12">
-                    <img src="./imgs/ourstory.png" alt="#" class="img-fluid">
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="card-shadow">
-                        <div class="card-body">
-                            <h5>Our story</h5>
-                            <p>Amindset removes the barriers so everyone can instantly connect with a healthcare provider. We are a team of innovators, strategists and developers that came together to make it easy to meet with someone you can talk to on a secure platform. We make it simple, safe and fun.
-                            </p>
+                <div class="row">
+                    <div class="col-md-7 col-12">
+                        <img src="./imgs/ourstory.png" alt="#" class="img-fluid">
+                    </div>
+                    <div class="col-md-5 col-12 align-self-center card">
+                        <div class="card-shadow">
+                            <div class="card-body p-3">
+                                <h5>Our story</h5>
+                                <p>Amindset removes the barriers so everyone can instantly connect with a healthcare provider. We are a team of innovators, strategists and developers that came together to make it easy to meet with someone you can talk to on a secure platform. We make it simple, safe and fun.
+                                </p>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY AMINDSET SECTION -->
+        <section class="amindset">
+            <div class="container mt-5 ">
+                <h4 class="text-center">Why Amindset</h4>
+                <div class="row" style="display: inline; flex-wrap: wrap;" >
+
+                    <div class="col-md-6 col-12 m-2 d-flex">
+                        <div class="d-flex" style="justify-content: flex-end;">
+                            <div>
+                                <span class="  b-avatar b-bg mr-3 b-secondary mx-3">
+                                    <span class="b-text  text-center p-2">1</span>
+                                </span>
+                            </div>
+                            <div>
+                                <h6 class="text-left heading">Quality</h6>
+                                <p class="text-left lines">Our providers are licensed and certified. They have a reliable history of success and satisfaction with their clients. Quality care and associated services are our primary standard that is upheld by all providers in the platform.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12 m-2  d-flex">
+                        <div class="d-flex" style="justify-content: flex-end;">
+                            <div>
+                                <span class="  b-avatar b-bg2 mr-3 b-secondary mx-3 " >
+                                    <span class="b-text  text-center p-2">2</span>
+                                </span>
+                            </div>
+                            <div>
+                                <h6 class="text-left heading">Privacy</h6>
+                                <p class="text-left lines">We are a HIPAA compliant platform guided by private and confidential standard and procedures. Our system offers encrypted and secure channels of communication between you and your health care provider. Personal information is kept confidential and is not shared with any third party apart from you and your healthcare provider.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12 m-2  d-flex">
+                        <div class="d-flex" style="justify-content: flex-end;">
+                            <div>
+                                <span class="  b-avatar mr-3 b-bg3 b-secondary mx-3">
+                                    <span class="b-text  text-center p-2">1</span>
+                                </span>
+                            </div>
+                            <div>
+                                <h6 class="text-left heading">Affordable</h6>
+                                <p class="text-left lines">Our consultation services are free. This allows you to choose the health care provider that is best for you without worrying about consultation fees.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12 m-2  d-flex">
+                        <div class="d-flex" style="justify-content: flex-end;">
+                            <div>
+                                <span class="  b-avatar mr-3 b-bg4   b-secondary mx-3">
+                                    <span class="b-text  text-center p-2">1</span>
+                                </span>
+                            </div>
+                            <div>
+                                <h6 class="text-left heading">Personalized</h6>
+                                <p class="text-left lines">Our providers' priority is to understand your needs and offer the most appropriate treatment and care plan that is best for you.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- img -->
+                    <div class="col-md-6 col-12 m-2 d-flex">
+                        <img src="./imgs/sidemain.jpg" style="width: 100%; vertical-align: middle; display: flex;" alt="#" >
+                    </div>
+
                 </div>
             </div>
         </section>
