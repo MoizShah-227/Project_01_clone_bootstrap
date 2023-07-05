@@ -191,3 +191,27 @@
 .b-bg4{
     background-color: #efb1b8;
 }
+hr{
+    color: black;
+}
+.text-success{
+    background-color: #28ab93;
+}
+.success::before{
+    content: "";
+    display: block;
+}
+.A-name{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 40%;
+}
+
+tr:hover {
+    background-color: coral;
+}
+th{
+    padding-right: 12%;
+}
