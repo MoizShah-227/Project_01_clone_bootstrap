@@ -234,4 +234,12 @@ th{
     font-size: large;
 }
 
-    
+.skip h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}    
+
+.skip p{
+    font-family: 'Roboto', sans-serif;
+}
