@@ -252,3 +252,9 @@ th{
     margin-top: 2px;
     font-family: 'Noto Sans', sans-serif;
 }
+
+.Say h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
