@@ -215,3 +215,23 @@ tr:hover {
 th{
     padding-right: 12%;
 }
+.comparison h5{
+    font-family: 'Noto Sans', sans-serif;   
+}
+.article h5{
+    font-family: 'Noto Sans', sans-serif;       
+}
+.article .o-card{
+    /* box-shadow: 1px 1px 0px 0px #888888; */
+    border: 1px solid #dfdfdf;    
+    padding: 16px 16px 12px 16px;
+    border-radius: 4px;
+} 
+.article p{
+    color: #1a91ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+    
