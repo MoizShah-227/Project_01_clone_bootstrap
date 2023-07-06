@@ -64,6 +64,7 @@
     margin-left: -15px;
 } */
 
+
 .boxs {
     display: flex;
     -webkit-box-align: center;
@@ -273,4 +274,19 @@ th{
 
 .Subscribe h2{
     font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .btn{
+    border: transparent;
+    background-color: #f9f9f9;
+    color: black;
+}
+.footer .btn:hover{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f3fa;
+}
+
+.footer h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
