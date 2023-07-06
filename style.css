@@ -259,3 +259,11 @@ th{
     font-size: 28px;
     font-weight: 500;
 }
+.Say h5{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+.Say p{
+    font-family: 'Roboto', sans-serif;
+}
