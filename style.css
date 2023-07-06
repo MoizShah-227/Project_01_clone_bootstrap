@@ -27,7 +27,7 @@
 } */
 
 /* MEDIA DISPLAY */
-@media(max-width:768px){
+/* @media(max-width:768px){
     .row{
         display: flex;
     }
@@ -53,16 +53,16 @@
     .nav-item{
         width: 40%
     }
-}
+} */
 
-.row {
+/* .row {
     
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-}
+} */
 
 .boxs {
     display: flex;
@@ -76,6 +76,7 @@
     border: none;
 }
    
+
 .col{
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -150,9 +151,9 @@
     margin-bottom: 15px;
 }
 /* OUR STORY SECTION */
-/* .card-shadow{
+ .card-shadow{
     box-shadow: 5px 5px 5px 5px #888888;
-} */
+}
 
 .img-fluid{
     max-width: 100%;
